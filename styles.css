@@ -1,0 +1,147 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.preview-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0.9;
+}
+
+.all-cars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cars {
+    width: 22%;
+    padding-right: 45px;
+    padding-left: 40px;
+}
+
+.cars1 {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.cars2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.cars3 {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+img {
+    padding-top: 50px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding: 13px 30px;
+    border-radius: 30px;
+    border: 2px solid hsl(0, 0%, 95%);
+    margin: 50px 0px;
+}
+
+button:hover {
+    color: hsl(0, 0%, 95%);
+    border: 2px solid white;
+}
+
+.button1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.button1:hover {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.button2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.button2:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.button3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.button3:hover {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    background-color: hsl(234, 17%, 88%);
+    border-radius: 10px;
+    padding: 7px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 420px) {
+    .cars{
+        width: 90%;
+    }
+    .preview-card{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .cars1 {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    .cars3 {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+    .attribution {
+        margin-bottom: 15px;
+        width: 90%;
+    }
+}
