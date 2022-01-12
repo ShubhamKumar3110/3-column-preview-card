@@ -48,5 +48,4 @@ The areas that I want to continue focusing on in future projects are CSS Flexbox
 
 ## Author
 
-- Website - [Shubham Kumar](https://shubhamkumar3110.github.io/3-column-preview-card/)
 - Frontend Mentor - [@ShubhamKumar3110](https://www.frontendmentor.io/profile/ShubhamKumar3110)
