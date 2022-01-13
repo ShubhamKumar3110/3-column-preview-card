@@ -125,24 +125,30 @@ main a:hover {
 }
 
 @media (max-width: 420px) {
+    
     .all-cars {
         flex-direction: column;
     }
+
     .cars{
         width: 90%;
     }
+
     .preview-card{
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
     .cars1 {
         border-top-right-radius: 10px;
         border-bottom-left-radius: 0px;
     }
+
     .cars3 {
         border-top-right-radius: 0px;
         border-bottom-left-radius: 10px;
     }
+
     .attribution {
         margin-bottom: 15px;
         width: 90%;
